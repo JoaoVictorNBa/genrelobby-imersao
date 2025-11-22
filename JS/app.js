@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     async function carregarGeneros() {
         try {
-            const response = await fetch('../generos.json');
+            const response = await fetch('generos.json');
             if (!response.ok) {
                 throw new Error('Erro ao carregar o arquivo JSON.');
             }
