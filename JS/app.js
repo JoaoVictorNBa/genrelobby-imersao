@@ -7,14 +7,14 @@ document.addEventListener('DOMContentLoaded', () => {
     function renderizarCards(genres) {
         cardsContainer.innerHTML = '';
 
-        // Verifica se a lista de gêneros está vazia
+// Verifica se a lista de gêneros está vazia
         if (genres.length === 0) {
             noResultsMessage.style.display = 'block';
         } else {
             noResultsMessage.style.display = 'none';
         }
 
-        // Cria e adiciona cada card de gênero
+//Cria e adiciona cada card de gênero
         genres.forEach(genre => {
             const article = document.createElement('article');
             article.classList.add('card');
