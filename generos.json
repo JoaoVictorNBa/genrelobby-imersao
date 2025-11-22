@@ -1,0 +1,32 @@
+[
+    {
+        "titulo": "Ação",
+        "definicao": "O gênero ação foca em cenas intensas e dinâmicas, com lutas, perseguições, explosões e desafios físicos constantes. Ele busca transmitir adrenalina e ritmo acelerado, mantendo o público preso pela emoção e pelo conflito direto.",
+        "link": "acao.html"
+    },
+    {
+        "titulo": "Terror",
+        "definicao": "O gênero terror é um estilo de narrativa criado para provocar medo, tensão e suspense no público. Seu objetivo é causar sensações intensas, como susto, apreensão e desconforto.",
+        "link": "terror.html"
+    },
+    {
+        "titulo": "Comédia",
+        "definicao": "Comédia é um gênero focado em fazer rir, usando situações engraçadas, diálogos divertidos e personagens atrapalhados ou espirituosos. É leve, descontraído e feito para trazer bom humor.",
+        "link": "comedia.html"
+    },
+    {
+        "titulo": "Aventura",
+        "definicao": "O gênero aventura é marcado por histórias que levam o público (ou jogador, no caso de games) a explorar lugares desconhecidos, enfrentar desafios e viver jornadas épicas. Ele costuma focar na viagem, na descoberta, em enigmas e em superar obstáculos em cenários grandiosos. A sensação central é de exploração, curiosidade e progresso. Alguns exemplos populares são The Legend of Zelda: Breath of the WIld e Shadow of the Colossus.",
+        "link": "aventura.html"
+    },
+    {
+        "titulo": "Ficção científica",
+        "definicao": "Ficção Científica é um gênero que explora ideias baseadas em ciência, tecnologia e cenários futuristas. Suas histórias imaginam avanços tecnológicos, viagens espaciais, inteligência artificial, universos paralelos, vida extraterrestre e mudanças científicas que influenciam a humanidade.",
+        "link": "ficcao.html"
+    },
+    {
+        "titulo": "Fantasia",
+        "definicao": "O gênero fantasia é marcado por elementos mágicos, criaturas míticas e mundos imaginários que fogem das regras da realidade. Normalmente envolve aventuras em universos cheios de mistério, poderes sobrenaturais e heróis enfrentando forças extraordinárias.",
+        "link": "fantasia.html"
+    }
+]

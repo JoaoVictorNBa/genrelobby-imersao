@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>GenreLobby</title>
+
+</head>
+
+<body>
+    <header style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 10rem;">
+        <h1>GenreLobby</h1>
+        <div>            
+            <input type="search" id="campo-busca" placeholder="Busque por um gênero">
+        </div>
+        
+    </header>
+
+    <button id="theme-toggle">
+        <span class="moon-icon">🌙</span>
+        <span class="sun-icon">☀️</span>
+    </button>
+
+    <main>
+        <section class="genre-section">
+            <div class="cards-container">
+                <!-- Os cards de gênero serão inseridos aqui via JavaScript -->
+            </div>
+            <p id="no-results-message" style="display: none; text-align: center;">Nenhum gênero encontrado.</p>
+        </section>
+
+        <section class="featured-games">
+            <h3>Jogos em Destaque</h3>
+            <div class="games-container">
+                <a href="https://www.hollowknight.com/" class="game-link" target="_blank">
+                    <img src="https://imgs.search.brave.com/boM0IXy4NfhcncF6LwSBFhfMkpPdG9nsmNCjJ7YuR5k/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/d2lraW1nLm5ldC9l/bi9oa3dpa2kvaW1h/Z2VzL3RodW1iL2Iv/YjEvSEtfV2VsY29t/ZV9JbWFnZS5wbmcv/NTAwcHgtSEtfV2Vs/Y29tZV9JbWFnZS5w/bmc" alt="Capa do jogo Hollow Knight">
+                    <span>Hollow Knight</span>
+                </a>
+                <a href="https://playvalorant.com/pt-br/news/announcements/beginners-guide/" class="game-link" target="_blank">
+                    <img src="https://imgs.search.brave.com/QaqlqKKHEbCs9HFE-HjT8TzfIBKoF1IiEdi36GSGUK8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdG9y/ZS1pbWFnZXMucy1t/aWNyb3NvZnQuY29t/L2ltYWdlL2FwcHMu/MjE1MDcuMTM2NjM4/NTc4NDQyNzExODku/NGMxZGUyMDItMzk2/MS00YzQwLWEwYWEt/N2Y0ZjEzODg3NzVh/LjIwZWQ3NzgyLTBl/ZGEtNGY5ZC1iNDIx/LTRjYzQ3NDkyZWRj/Ng" alt="Capa do jogo Valorant">
+                    <span>Valorant</span>
+                </a>
+                <a href="https://forza.fandom.com/wiki/Forza_Horizon_4" class="game-link" target="_blank">
+                    <img src="https://imgs.search.brave.com/YqKz-31LIt-ssNYrOdNv0XxN3t2XIIdQjXtOIoyJWz4/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMtcHJkLmlnbmlt/Z3MuY29tLzIwMjAv/MDcvMjIvZm9yemEt/aG9yaXpvbi00LWJ1/dHRvbi1maW4tMTU5/NTQzNTE5MDE4Ni5q/cGc_Y3JvcD0xOjEs/c21hcnQmZm9ybWF0/PWpwZyZhdXRvPXdl/YnAmcXVhbGl0eT04/MA" alt="Capa do jogo Forza Horizon 4">
+                    <span>Forza Horizon 4</span>
+                </a>
+                <a href="https://diablo4.blizzard.com/pt-br" class="game-link" target="_blank">
+                    <img src="https://imgs.search.brave.com/awDI-zsRUzJOtf7uaLSi8bXoqEqbWl48jlvd9Nbcx-0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1QlptTTJORGRs/TnpBdFpqVm1NQzAw/TWpJeUxUZzRZbUl0/TkdWaE5qTm1NVGN3/WkRZMFhrRXlYa0Zx/Y0djQC5qcGc" alt="Capa do jogo Diablo 4">
+                    <span>Diablo 4</span>
+                </a>
+                <a href="https://throneandliberty.online/" class="game-link" target="_blank">
+                    <img src="https://imgs.search.brave.com/JVoYe7QhOCEPvPzwVRaiD_HrcTQkFSeWeTBd1ju21to/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdHls/ZXMucmVkZGl0bWVk/aWEuY29tL3Q1XzU5/Mjk0di9zdHlsZXMv/Y29tbXVuaXR5SWNv/bl9ucXQ1Z3ozMmpz/Y2QxLmpwZz9mb3Jt/YXQ9cGpwZyZzPWY1/ODk1ZjRkNDdhMjRl/YjFmNjI1MjlmZjlm/M2NkMWNkMDY5ZGZk/MzU" alt="Capa do jogo Throne and Liberty">
+                    <span>Throne and Liberty</span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <ul class="footer-links">
+            <li>
+                <a href="https://github.com/JoaoVictorNBa" target="_blank">Github</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/joao-victor-bagatim" target="_blank">LinkedIn</a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/bagatimjoao" target="_blank">Instagram</a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="../JS/app.js"></script>
+    <script src="../JS/tema.js"></script>
+    <script src="../JS/busca.js"></script>
+    <script src="../JS/padrao.js"></script>
+
+</body>
+</html>
