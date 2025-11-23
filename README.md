@@ -1,6 +1,8 @@
 # 🎮 GenreLobby
 
-GenreLobby é um site interativo e imersivo para explorar filmes e jogos por gênero. Pense nele como um hub que te leva por diferentes universos — desde filmes de ação até games de estratégia — com uma experiência visual envolvente e informativa.
+O GenreLobby é uma plataforma interativa criada para facilitar a descoberta de filmes e jogos através de seus gêneros. A proposta é transformar a navegação em uma experiência imersiva, visualmente envolvente e organizada, permitindo que qualquer usuário explore diferentes mundos do entretenimento com apenas alguns cliques.
+
+Projetado com foco na clareza e na estética, o site oferece uma interface leve e intuitiva, onde cada gênero ganha vida através de cores, imagens e páginas dedicadas. O objetivo é unir cinema e games em um só lugar, criando um ambiente moderno, funcional e agradável — ideal para quem busca uma forma rápida e elegante de conhecer novos títulos.
 
 🚀 Visão Geral
 
@@ -19,8 +21,11 @@ Design intuitivo: menus limpos, hierarquia visual clara, foco na usabilidade.
 ## Tecnologias Utilizadas
 
 HTML5
+
 CSS3
+
 JavaScript
+
 GitHub Pages (hospedagem)
 
 ## 🛠 Como Rodar o Projeto Localmente
