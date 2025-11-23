@@ -1,36 +1,28 @@
-# 🎮 GenreLobby Imersão
+# 🎮 GenreLobby
 
-Bem-vindo ao **GenreLobby Imersão**, um site criado como parte da imersão de desenvolvimento web para explorar, catalogar e apresentar diferentes gêneros de jogos, filmes, séries e muito mais.
+GenreLobby é um site interativo e imersivo para explorar filmes e jogos por gênero. Pense nele como um hub que te leva por diferentes universos — desde filmes de ação até games de estratégia — com uma experiência visual envolvente e informativa.
 
-🌐 Visite o site: **[GenreLobby Imersão](https://joaovictornba.github.io/genrelobby-imersao/)**  
-📘 Repositório: **[GitHub](https://github.com/JoaoVictorNBa/genrelobby-imersao)**
+🚀 Visão Geral
 
----
+Permite navegar por categorias/gêneros de filmes e videogames.
+Exibe trailers, sinopses e informações relevantes sobre cada título.
+Fornece uma interface atraente e moderna, ideal para quem ama entretenimento digital e quer descobrir novas obras.
+É responsivo e fácil de usar, tanto no desktop quanto em dispositivos móveis.
 
-## ✨ Sobre o Projeto
+✨ Funcionalidades Principais
 
-O GenreLobby Imersão foi desenvolvido para:
+Catálogo dinâmico de obras: filmes e jogos organizados por gênero.
+Visual imersivo: uso de imagens, animações ou efeitos para tornar a navegação mais “imersiva”.
+Trailer e detalhes: ao clicar em um título, o usuário pode assistir ao trailer (quando disponível) e ver uma sinopse, ficha técnica ou informações adicionais.
+Design intuitivo: menus limpos, hierarquia visual clara, foco na usabilidade.
 
-- Organizar diferentes **gêneros** de mídia (jogos, filmes, séries) de forma visual e interativa  
-- Exibir cards com cada gênero, trazendo uma breve descrição e imagem representativa  
-- Criar um ambiente web simples e responsivo para estudo e apresentação de front-end  
-- Servir como demonstrativo das minhas habilidades em HTML, CSS e JavaScript
+## 🧰 Tecnologias Utilizadas
 
-Esse projeto também faz parte da minha jornada de aprendizado, então ele é tanto funcional como educativo para mim.
-
----
-
-## 📚 Tecnologias Usadas
-
-- **HTML5**: estrutura das páginas  
-- **CSS3**: estilos, layout e responsividade  
-- **JavaScript**: interatividade e manipulação de DOM  
-- **GitHub Pages**: hospedagem estática do site via GitHub :contentReference[oaicite:0]{index=0}  
-
----
+HTML5 + CSS3 (provavelmente com Flexbox / Grid para layout)
+JavaScript (para gerenciar interatividade, navegação entre gêneros, modais de filmes/jogos)
+Hospedagem via GitHub Pages (já que seu site está em joaovictornba.github.io)
 
 ## 🛠 Como Rodar o Projeto Localmente
-
 Se você quiser clonar o projeto e ver tudo funcionando no seu computador:
 
 1. Clone este repositório:
