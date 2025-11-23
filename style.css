@@ -206,7 +206,10 @@ body.light-mode .theme-toggle-btn .lucide-moon { display: block; }
     color: #000;
 }
 
-.btn-primary:hover { background: var(--accent-hover); }
+.btn-primary:hover { 
+    background: var(--accent-hover); 
+    box-shadow: 0 0 15px rgba(245, 197, 24, 0.8);
+}
 
 .btn-secondary {
     background: rgba(255, 255, 255, 0.1);
@@ -215,7 +218,11 @@ body.light-mode .theme-toggle-btn .lucide-moon { display: block; }
     margin-left: 15px;
 }
 
-.btn-secondary:hover { background: rgba(255, 255, 255, 0.2); }
+.btn-secondary:hover { 
+    background: rgba(255, 255, 255, 0.2); 
+    box-shadow: 0 0 15px rgba(245, 197, 24, 0.8);
+    border-color: var(--accent);
+}
 
 /* --- GENRE TABS --- */
 .genre-bar {
@@ -288,8 +295,8 @@ body.light-mode .theme-toggle-btn .lucide-moon { display: block; }
 }
 
 .media-card:hover {
-    transform: translateY(-10px) scale(1.02);
-    box-shadow: var(--shadow);
+    transform: translateY(-10px) scale(1.04);
+    box-shadow: 0 10px 40px rgba(245, 197, 24, 0.5);
     z-index: 2;
 }
 
@@ -601,3 +608,4 @@ footer {
     align-items: center; */
     /* justify-content: center; 
 }*/
+
