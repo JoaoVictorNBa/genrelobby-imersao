@@ -16,11 +16,12 @@ Visual imersivo: uso de imagens, animações ou efeitos para tornar a navegaçã
 Trailer e detalhes: ao clicar em um título, o usuário pode assistir ao trailer (quando disponível) e ver uma sinopse, ficha técnica ou informações adicionais.
 Design intuitivo: menus limpos, hierarquia visual clara, foco na usabilidade.
 
-## 🧰 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
-HTML5 + CSS3 (provavelmente com Flexbox / Grid para layout)
-JavaScript (para gerenciar interatividade, navegação entre gêneros, modais de filmes/jogos)
-Hospedagem via GitHub Pages (já que seu site está em joaovictornba.github.io)
+HTML5
+CSS3
+JavaScript
+GitHub Pages (hospedagem)
 
 ## 🛠 Como Rodar o Projeto Localmente
 Se você quiser clonar o projeto e ver tudo funcionando no seu computador:
