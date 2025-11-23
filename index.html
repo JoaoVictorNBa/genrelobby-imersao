@@ -3,76 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GenreLobby - Explore Filmes e Jogos</title>
     <link rel="stylesheet" href="style.css">
-    <title>GenreLobby</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
 </head>
-
 <body>
-    <header style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 10rem;">
-        <h1>GenreLobby</h1>
-        <div>            
-            <input type="search" id="campo-busca" placeholder="Busque por um gênero">
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <a href="#" class="logo" id="logo-home">
+            <i data-lucide="gamepad-2"></i>
+            <span>GenreLobby</span>
+        </a>
+        <div class="nav-search">
+            <input type="text" id="search-input" placeholder="Buscar por título ou gênero...">
+            <i data-lucide="search"></i>
+        </div>
+        <div class="nav-links">
+            <a href="#" class="nav-item" id="view-catalog-btn">Catálogo</a>
+            <!-- <button class="theme-toggle-btn" id="theme-toggle">
+                <i class="lucide-sun" data-lucide="sun"></i>
+                <i class="lucide-moon" data-lucide="moon"></i>
+            </button> -->
+            <button class="nav-search-toggle" id="nav-search-toggle">
+                <i data-lucide="search"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <span class="hero-tag">Explore Mundos</span>
+            <h1 class="hero-title">Seu Portal para Filmes e Jogos</h1>
+            <p class="hero-desc">
+                Navegue por um catálogo diversificado, descubra novos favoritos e mergulhe em trailers e informações detalhadas sobre os maiores sucessos do cinema e dos games.
+            </p>
+            <button class="btn btn-primary" id="explore-now-btn">
+                <i data-lucide="compass"></i> Explorar Agora
+            </button>
         </div>
     </header>
 
-    <button id="theme-toggle">
-        <span class="moon-icon">🌙</span>
-        <span class="sun-icon">☀️</span>
-    </button>
-
-    <main>
-        <section class="genre-section">
-            <div class="cards-container">
-                <!-- Os cards de gênero serão inseridos aqui via JavaScript -->
-            </div>
-            <p id="no-results-message" style="display: none; text-align: center;">Nenhum gênero encontrado.</p>
+    <main id="content-area">
+        <!-- Genêros -->
+        <section class="genre-bar" id="genre-bar">
         </section>
 
-        <section class="featured-games">
-            <h3>Jogos em Destaque</h3>
-            <div class="games-container">
-                <a href="https://www.hollowknight.com/" class="game-link" target="_blank">
-                    <img src="https://imgs.search.brave.com/boM0IXy4NfhcncF6LwSBFhfMkpPdG9nsmNCjJ7YuR5k/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/d2lraW1nLm5ldC9l/bi9oa3dpa2kvaW1h/Z2VzL3RodW1iL2Iv/YjEvSEtfV2VsY29t/ZV9JbWFnZS5wbmcv/NTAwcHgtSEtfV2Vs/Y29tZV9JbWFnZS5w/bmc" alt="Capa do jogo Hollow Knight">
-                    <span>Hollow Knight</span>
-                </a>
-                <a href="https://playvalorant.com/pt-br/news/announcements/beginners-guide/" class="game-link" target="_blank">
-                    <img src="https://imgs.search.brave.com/QaqlqKKHEbCs9HFE-HjT8TzfIBKoF1IiEdi36GSGUK8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdG9y/ZS1pbWFnZXMucy1t/aWNyb3NvZnQuY29t/L2ltYWdlL2FwcHMu/MjE1MDcuMTM2NjM4/NTc4NDQyNzExODku/NGMxZGUyMDItMzk2/MS00YzQwLWEwYWEt/N2Y0ZjEzODg3NzVh/LjIwZWQ3NzgyLTBl/ZGEtNGY5ZC1iNDIx/LTRjYzQ3NDkyZWRj/Ng" alt="Capa do jogo Valorant">
-                    <span>Valorant</span>
-                </a>
-                <a href="https://forza.fandom.com/wiki/Forza_Horizon_4" class="game-link" target="_blank">
-                    <img src="https://imgs.search.brave.com/YqKz-31LIt-ssNYrOdNv0XxN3t2XIIdQjXtOIoyJWz4/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMtcHJkLmlnbmlt/Z3MuY29tLzIwMjAv/MDcvMjIvZm9yemEt/aG9yaXpvbi00LWJ1/dHRvbi1maW4tMTU5/NTQzNTE5MDE4Ni5q/cGc_Y3JvcD0xOjEs/c21hcnQmZm9ybWF0/PWpwZyZhdXRvPXdl/YnAmcXVhbGl0eT04/MA" alt="Capa do jogo Forza Horizon 4">
-                    <span>Forza Horizon 4</span>
-                </a>
-                <a href="https://diablo4.blizzard.com/pt-br" class="game-link" target="_blank">
-                    <img src="https://imgs.search.brave.com/awDI-zsRUzJOtf7uaLSi8bXoqEqbWl48jlvd9Nbcx-0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1QlptTTJORGRs/TnpBdFpqVm1NQzAw/TWpJeUxUZzRZbUl0/TkdWaE5qTm1NVGN3/WkRZMFhrRXlYa0Zx/Y0djQC5qcGc" alt="Capa do jogo Diablo 4">
-                    <span>Diablo 4</span>
-                </a>
-                <a href="https://throneandliberty.online/" class="game-link" target="_blank">
-                    <img src="https://imgs.search.brave.com/JVoYe7QhOCEPvPzwVRaiD_HrcTQkFSeWeTBd1ju21to/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdHls/ZXMucmVkZGl0bWVk/aWEuY29tL3Q1XzU5/Mjk0di9zdHlsZXMv/Y29tbXVuaXR5SWNv/bl9ucXQ1Z3ozMmpz/Y2QxLmpwZz9mb3Jt/YXQ9cGpwZyZzPWY1/ODk1ZjRkNDdhMjRl/YjFmNjI1MjlmZjlm/M2NkMWNkMDY5ZGZk/MzU" alt="Capa do jogo Throne and Liberty">
-                    <span>Throne and Liberty</span>
-                </a>
+        <!-- GRID CONTENT -->
+        <section class="main-content">
+            <h2 class="section-title" id="section-header">Catálogo Completo</h2>
+            <div class="media-grid" id="media-grid">
             </div>
         </section>
     </main>
 
-    <footer class="footer">
-        <ul class="footer-links">
-            <li>
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <a href="#" class="logo">
+                <i data-lucide="gamepad-2"></i>
+                <span>GenreLobby</span>
+            </a>
+            <div class="footer-links">
                 <a href="https://github.com/JoaoVictorNBa" target="_blank">Github</a>
-            </li>
-            <li>
                 <a href="https://www.linkedin.com/in/joao-victor-bagatim" target="_blank">LinkedIn</a>
-            </li>
-            <li>
                 <a href="https://www.instagram.com/bagatimjoao" target="_blank">Instagram</a>
-            </li>
-        </ul>
+            </div>
+            <p class="footer-copyright">&copy; 2024 GenreLobby. Todos os direitos reservados.</p>
+        </div>
     </footer>
 
-    <script src="./JS/app.js"></script>
-    <!-- <script src="./JS/tema.js"></script> -->
-    <script src="./JS/busca.js"></script>
-    <script src="./JS/padrao.js"></script>
-</body>
-</html>
+    <!-- MODAL -->
+    <div class="modal-overlay" id="modal">
+        <div class="modal-content">
+            <button class="close-modal" id="close-modal-btn">
+                <i data-lucide="x"></i>
+            </button>
+            <div class="modal-video-container" id="modal-video">
+                <!-- Iframe do YouTube será inserido aqui -->
+            </div>
+            <div class="modal-details">
+                <h3 class="modal-title" id="modal-title">Título do Item</h3>
+                <div class="modal-meta-info">
+                    <div id="modal-age-rating" class="age-rating"></div>
+                    <div id="modal-info-grid"></div>
+                </div>
+                <p class="modal-desc" id="modal-desc">Descrição do item...</p>
+                <div id="modal-tags-container" class="modal-section"></div>
+                <div id="modal-screenshots-section" class="modal-section">
+                    <h4>Screenshots</h4>
+                    <div id="modal-screenshots-container"></div>
+                </div>
+                <div id="modal-actions" class="modal-actions"></div>
+            </div>
+        </div>
+    </div>
 
+    <script src="app.js"></script>
+</body>
+</html>   
