@@ -1,6 +1,6 @@
 # 🎮 GenreLobby
 
-O GenreLobby é uma plataforma interativa criada para facilitar a descoberta de filmes e jogos através de seus gêneros. A proposta é transformar a navegação em uma experiência imersiva, visualmente envolvente e organizada, permitindo que qualquer usuário explore diferentes mundos do entretenimento com apenas alguns cliques.
+O GenreLobby é uma plataforma interativa criada para facilitar a descoberta de jogos através de seus gêneros. A proposta é transformar a navegação em uma experiência imersiva, visualmente envolvente e organizada, permitindo que qualquer usuário explore diferentes mundos do entretenimento com apenas alguns cliques.
 
 Projetado com foco na clareza e na estética, o site oferece uma interface leve e intuitiva, onde cada gênero ganha vida através de cores, imagens e páginas dedicadas. O objetivo é unir cinema e games em um só lugar, criando um ambiente moderno, funcional e agradável — ideal para quem busca uma forma rápida e elegante de conhecer novos títulos.
 
