@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
         id: 1,
         titulo: "Grand Theft Auto V",
         descricao: "Um jovem traficante, um ladrão de bancos aposentado e um psicopata aterrorizante precisam realizar uma série de roubos ousados.",
-        imagem: "https://imgs.search.brave.com/ChgXoLehlnRvnc4E-I13X5cvddUpqLfFSETWz1V53UM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXQuY29t/L3cvZnVsbC9jLzEv/MC8xMzEwNTEtMTA4/MHgxOTIwLWlwaG9u/ZS1mdWxsLWhkLWdy/YW5kLXRoZWZ0LWF1/dG8tNS13YWxscGFw/ZXItcGhvdG8uanBn",
+        imagem: "https://cdn.akamai.steamstatic.com/steam/apps/271590/header.jpg",
         genero: "Ação",
         plataformas: ["PC", "PS4", "PS5", "Xbox"],
         classificacao: { sigla: "18", descricao: "Violência, Drogas" },
