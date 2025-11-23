@@ -17,12 +17,12 @@ document.addEventListener('DOMContentLoaded', () => {
         id: 1,
         titulo: "Grand Theft Auto V",
         descricao: "Um jovem traficante, um ladrão de bancos aposentado e um psicopata aterrorizante precisam realizar uma série de roubos ousados.",
-        imagem: "https://cdn.akamai.steamstatic.com/steam/apps/271590/header.jpg",
+        imagem: "https://www.pinterest.com/ideas/grand-theft-auto-5-wallpapers/954376029473/",
         genero: "Ação",
         plataformas: ["PC", "PS4", "PS5", "Xbox"],
         classificacao: { sigla: "18", descricao: "Violência, Drogas" },
         trailer: "https://www.youtube.com/embed/QkkoHAzjnUs",
-        linkLoja: "https://store.steampowered.com/app/271590/"
+        linkLoja: "https://store.steampowered.com/app/271590/Grand_Theft_Auto_V_Legacy/"
     },
     {
         id: 2,
